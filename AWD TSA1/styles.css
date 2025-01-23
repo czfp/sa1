@@ -1,0 +1,64 @@
+.click {
+  position: relative;
+  margin-left: 640px;
+}
+
+img {
+  border-radius: 10000px;
+  border-style:double;
+  border-width: 6px;
+  border-color: white;
+}
+
+.profile-pic {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 550px;
+  margin-right: 10px;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+
+  .resume {
+    max-width: 750px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #faeaef;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    transition: background-color 0.3 ease, color 0.3s ease;
+  }
+
+  h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+    color: black;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+  .btn {
+    display: inline-block;
+    margin-top: 100px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #d34572;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #671831;
+  }
